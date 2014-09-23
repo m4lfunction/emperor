@@ -1,0 +1,318 @@
+﻿Merge branch 'master' of https://github.com/m4lfunction/emperor
+
+Conflicts:
+	Assembly-UnityScript-Editor-vs.unityproj
+	Assembly-UnityScript-Editor.unityproj
+	Assembly-UnityScript-vs.unityproj
+	Assembly-UnityScript.unityproj
+	Assets/Prefabs/Enemies/pill001.prefab
+	Assets/Prefabs/Enemies/pill002.prefab
+	Assets/Prefabs/Enemies/pill003.prefab
+	Assets/Prefabs/Enemies/pill004.prefab
+	Assets/Scenes/killscreen.unity
+	Assets/Scenes/mainMenu.unity
+	Assets/Scenes/story.unity
+	Assets/Scripts/Ally/AmmoDude/DropAmmo.js
+	Assets/Scripts/Areas/Capture.js
+	Assets/Scripts/Areas/StoneHouseControl.js
+	Assets/Scripts/Conversation/Tutorial.js
+	Assets/Scripts/DontMove.js
+	Assets/Scripts/Enemies/WaveControl.js
+	Assets/Scripts/GameMenu.js
+	Assets/Scripts/MainMenu.js
+	Assets/Scripts/Player/FMenu.js
+	Assets/Scripts/Player/PlayerCombatAnimation.js
+	Assets/Scripts/Player/PlayerCounter.js
+	Assets/Scripts/Player/PlayerWeapon.js
+	Assets/Scripts/Player/PlayerWeapon.js.meta
+	Assets/Terrains/Story1.asset
+	Library/AssetServerCacheV3
+	Library/CurrentLayout.dwlt
+	Library/EditorUserBuildSettings.asset
+	Library/InspectorExpandedItems.asset
+	Library/ProjectSettings.asset
+	Library/ScriptAssemblies/Assembly-CSharp.dll
+	Library/ScriptAssemblies/Assembly-CSharp.dll.mdb
+	Library/ScriptAssemblies/Assembly-UnityScript-Editor.dll
+	Library/ScriptAssemblies/Assembly-UnityScript-Editor.dll.mdb
+	Library/ScriptAssemblies/Assembly-UnityScript.dll
+	Library/ScriptAssemblies/Assembly-UnityScript.dll.mdb
+	Library/assetDatabase3
+	Library/expandedItems
+	Library/guidmapper
+	Library/metadata/00/003377fc2620a44939dadde6fe3f8190
+	Library/metadata/01/017ca72b9e8a749058d13ebd527e98fa
+	Library/metadata/01/01bfe9afcfaee1145b869c94600a56e4
+	Library/metadata/03/03459ed6bdb9d6e4f8d87ceeb12cca06
+	Library/metadata/09/09777247c444aac4d8f2328378072263
+	Library/metadata/0a/0aeaa4cb29f5d4e9c8455f04c8575c8c
+	Library/metadata/0b/0b3c360fb173a7848abad9541cbb1ece
+	Library/metadata/0c/0c49dd4898ac4e74b8bd955d765cbbf6
+	Library/metadata/0d/0d1644bdf064147baa97f235fc5b4903
+	Library/metadata/0e/0e447868506ba49f0a73235b8a8b647a
+	Library/metadata/0e/0e69d4c9c837e47479d4e6a94f76c6e2
+	Library/metadata/13/13e5c365a7225d64f8250aa4a2e7d82d
+	Library/metadata/14/14768d3865b1342e3a861fbe19ba2db2
+	Library/metadata/16/16fbf5a3cb25b0e4094c853f24388300
+	Library/metadata/17/1750b3d7106ee404587d4d3d5c185aca
+	Library/metadata/18/186c4c0d31e314f049595dcbaf4ca129
+	Library/metadata/19/19730c7ae7bbb22469e63650fa14f7d7
+	Library/metadata/20/202138bb82c74b34090ae757b3d0cae7
+	Library/metadata/20/20b2fd4eb7583864d8b5eb617b2e3150
+	Library/metadata/23/23a7e2d7774adaf4bb8ac17ebab52481
+	Library/metadata/25/257bc83cbeb544540bd0e558aa9b1383
+	Library/metadata/27/27320cdbcd1f8b246a1b34c6ed9ae904
+	Library/metadata/27/273404942eede4ea1883ca1fb2942507
+	Library/metadata/29/298ce93a50879c044b9ed841d4687fb4
+	Library/metadata/2b/2b4f29398d9484ccfa9fd220449f5eee
+	Library/metadata/2d/2d7d1a71f24b709408fb674943d75544
+	Library/metadata/2e/2e01afb12da17924ba845f52fcfe067f
+	Library/metadata/30/30c49fc2bba0adb43828818992717678
+	Library/metadata/31/31f5a8611c4ed1245b18456206e798dc
+	Library/metadata/32/32804363b9400d54bbc5c6649c67f31f
+	Library/metadata/38/38ab6a45e94c5484a90b8887fea1b526
+	Library/metadata/39/39218376a9e3c364cb90b458e1dbff2b
+	Library/metadata/3f/3fdcfd325fd238741bde449ef3717dbf
+	Library/metadata/3f/3ffe23dc2e7126e419e845cd05cf4b44
+	Library/metadata/41/4116114fad112a07d000fbfb8d76c639
+	Library/metadata/41/41d63c1218b23ed48a4b713fb9916ada
+	Library/metadata/43/4321ba4d24abf3d4baea61f889e14455
+	Library/metadata/43/438ddd58d82c84d9eb1fdc56111702e1
+	Library/metadata/43/43ca18288c424f645aaa1e9e07f04c50
+	Library/metadata/45/459fe69d2f6d74ddb92f04dbf45a866b
+	Library/metadata/4d/4df22e458844a9747a2f1d392dee9a46
+	Library/metadata/51/51ae11a5cd82fda468a85179946d672a
+	Library/metadata/53/53b3960ee3d3d4a5caa8d5473d120187
+	Library/metadata/56/56275550648389f439802f7d6f460910
+	Library/metadata/56/562f620336e024ac99992ff05725a89a
+	Library/metadata/57/573156835bf170642836669b268fe94b
+	Library/metadata/57/57b33a14b6d5347c5a85c36f6cb3b280
+	Library/metadata/57/57cd989e8b8052149bbcb9eaaf0c9f1b
+	Library/metadata/57/57cdacf9b217546aaa18edf39a6151c0
+	Library/metadata/57/57e6deea7c2924e22a5138e2b70bb4dc
+	Library/metadata/5a/5a5871ddc4b9c3d44934033e1235b8d8
+	Library/metadata/5d/5d7f4c401ae8946bcb0d6ff68a9e7466
+	Library/metadata/5d/5de13ab1a8d1607448f4db2a8a423773
+	Library/metadata/5f/5fd3a64e3023927488d27d233afc26d0
+	Library/metadata/61/61b0626934c6e534c85705dcb502cd3f
+	Library/metadata/62/6205c27cc031f4e66b8ea90d1bfaa158
+	Library/metadata/62/627943dc7a9a74286b70a4f694a0acd5
+	Library/metadata/62/62bcade1028c24ca1a39760ed84b9487
+	Library/metadata/64/641b781cad112c75d0008dfa8d76c639
+	Library/metadata/66/66b5148620efdb249b032b735d4f7885
+	Library/metadata/67/67f8781cad112c75d0008dfa8d76c639
+	Library/metadata/6d/6d55b5e91b95c41739cdf4f804dd383d
+	Library/metadata/6f/6f1418cffd12146f2a83be795f6fa5a7
+	Library/metadata/70/708b781cad112c75d0008dfa8d76c639
+	Library/metadata/70/70d8568987ac0499f952b54c7c13e265
+	Library/metadata/71/71d9363122d247d4dbfbbeb41c27d8ac
+	Library/metadata/76/7699c5fbfa27745a1abe111ab7bf9785
+	Library/metadata/78/7856cbff0a0ca45c787d5431eb805bb0
+	Library/metadata/79/793c4d0a1727ac34d85e706f67f81f26
+	Library/metadata/7a/7a2f368ac42f6c745b6ddbb151f7c130
+	Library/metadata/7a/7a5c9a1e3abce9446b8bf7b4779585a7
+	Library/metadata/7a/7a632f967e8ad42f5bd275898151ab6a
+	Library/metadata/7d/7da6d8b5aed4cf6448c967781fedf420
+	Library/metadata/7e/7e9375866fd2bd9428d7379b03e1e029
+	Library/metadata/81/81576c2547f677d4ea9d677c8c0fd069
+	Library/metadata/82/820f01f3545690446a6705918363d288
+	Library/metadata/82/8257478e71ab1934288a38beb8832402
+	Library/metadata/85/85a88efa8c871af4a9d17c64791b6f4f
+	Library/metadata/86/862950d26fbb08540befde4be28eea7f
+	Library/metadata/87/874ceab4425f64bccb1d14032f4452b1
+	Library/metadata/8b/8b30686bb4322ab42ad5eb50a0210b58
+	Library/metadata/8b/8bb060be6d0bdc44683aeaaf826f230b
+	Library/metadata/8c/8c81db0e527d24acc9bcec04e87781bd
+	Library/metadata/8e/8ec5336e026d4954292c2dca272fc729
+	Library/metadata/8e/8ef97158c3b3dac49844c3d16452a631
+	Library/metadata/90/9009731698d74184a9d82766f08a6dd0
+	Library/metadata/92/926e6b8704ae248539bd7d7d6bdb7f16
+	Library/metadata/92/927e08055a96b0a4da6cf27fae5821d8
+	Library/metadata/95/95ef4804fe0be4c999ddaa383536cde8
+	Library/metadata/96/96a5ce96d952c034aa858f108dfd0723
+	Library/metadata/96/96ca71e39c7b6fb4f9bec2c5bf331349
+	Library/metadata/98/987fb0677d01f43ce8a9dbf12271e668
+	Library/metadata/9a/9ad381ed8492840ab9f165df743e4826
+	Library/metadata/a0/a0075189a62585c4aa2c5902b2b6fa2e
+	Library/metadata/a1/a181ca8e3c62f3e4b8f183f6c586b032
+	Library/metadata/a4/a40c1b84cf7fe418bae97a29041b85a4
+	Library/metadata/a4/a4b474cd484494a4aaa4bbf928219d09
+	Library/metadata/a4/a4cdca73d61814d33ac1587f6c163bca
+	Library/metadata/a9/a96effba233cd904991d048cfd5fa5c6
+	Library/metadata/a9/a9df009a214e24a5ebbf271595f8d5b6
+	Library/metadata/ac/ac8e974c1d72c3b48ada36a9c3122f22
+	Library/metadata/ac/acd613035ff3e455e8abf23fdc8c8c24
+	Library/metadata/b0/b0249d8c935344451aa4de6db76f0688
+	Library/metadata/b1/b14b79b8936134d3f8238f0c2d40d634
+	Library/metadata/b1/b1f4aac2c6667456c80bc8ab9bac6ed1
+	Library/metadata/b2/b2145489f7c704db8acb14a52bddeee9
+	Library/metadata/b2/b226b672482029e4a9560dc34d111c3a
+	Library/metadata/b3/b3728d1488b02490cbd196c7941bf1f8
+	Library/metadata/b5/b59984d82af624bd3b0c777f038276f2
+	Library/metadata/b6/b61f0d8d8244b4b28aa66b0c8cb46a8d
+	Library/metadata/b6/b6aa781cad112c75d0008dfa8d76c639
+	Library/metadata/bb/bb4af680337344a4abad65a4e8873c50
+	Library/metadata/be/be6e39cf196f146d5be72fbefb18ed75
+	Library/metadata/be/befbb4b9c320b4b18a08ef7afb93b6c9
+	Library/metadata/c1/c182fa94a5a0a4c02870641efcd38cd5
+	Library/metadata/c5/c547503fff0e8482ea5793727057041c
+	Library/metadata/c6/c60d549d7b8ffdd479e6bedd2605e659
+	Library/metadata/c7/c73556f62b58e134bb5da0e589fd46d5
+	Library/metadata/cb/cbe99b2ec4649a346a7128b3fd22aa87
+	Library/metadata/cd/cd5b323dcc592457790ff18b528f5e67
+	Library/metadata/cd/cda1c054a28690048a7954c6f861b5fc
+	Library/metadata/ce/ce0cb2621f6d84e21a87414e471a3cce
+	Library/metadata/d3/d3b1c8c1036784176946f5cfbfb7fe4c
+	Library/metadata/d4/d440902fad11e807d00044888d76c639
+	Library/metadata/d5/d5c8af848799eb6458719a68a7759538
+	Library/metadata/d5/d5f906c8c7ba7f241ba67c6d753873f4
+	Library/metadata/d6/d6e0c95a128e14227939c51b5d9ad74e
+	Library/metadata/d6/d6ef58fc6f637406bbe6814a19c377f8
+	Library/metadata/d8/d8e82664aa8686642a424c88ab10164a
+	Library/metadata/d9/d90434b9023ed6d40ad0ce3aa436209c
+	Library/metadata/d9/d9cccf980fcb7441d85b8b3b5c2d2c34
+	Library/metadata/d9/d9ebc22fd759b82418750afb22340fd0
+	Library/metadata/da/da310021e2a4142429d95c537846dc38
+	Library/metadata/da/daf9781cad112c75d0008dfa8d76c639
+	Library/metadata/db/db8f91f33bb77f84f916377e9e870a15
+	Library/metadata/dc/dce54f4ed875d25438fb1bbc08a595c9
+	Library/metadata/dd/dddd51e373e7a88478f026c0c20a21af
+	Library/metadata/df/dfadab6ca5223eb40a2b4fc6ed76cd68
+	Library/metadata/e0/e066c733af4068d439bfc347861249e5
+	Library/metadata/e2/e2baf3cae8edc4daf94c9adc2154be00
+	Library/metadata/e3/e3446786aca50734cba16c34ee8ac4c6
+	Library/metadata/e3/e3ef33c358f60a04cb95cf8190a4fc69
+	Library/metadata/e5/e515e0f94cefc4c0db54b45cba621544
+	Library/metadata/e8/e80c3c84ea861404d8a427db8b7abf04
+	Library/metadata/e8/e8eb0b28347964b4d9f4a0bd9f49be3d
+	Library/metadata/e9/e97c14fbb5ea04c3a902cc533d7fc5d1
+	Library/metadata/e9/e9a9781cad112c75d0008dfa8d76c639
+	Library/metadata/e9/e9ba2083ad114a07d000fbfb8d76c639
+	Library/metadata/eb/eb7a6286966b34a4f9748fa598bf1f09
+	Library/metadata/ec/ec489989c9df93e4bbadc49cedcf32ec
+	Library/metadata/ec/ecd9a2c463dcb476891e43d7c9f16ffa
+	Library/metadata/ed/ed820cefcf359e343be1d1cb3add2b25
+	Library/metadata/f0/f0f079d1ac9e4d64aaaa37e2c26182a7
+	Library/metadata/f1/f1b13d7a80660504a858ea24cfa418c6
+	Library/metadata/f3/f31b54d0f02daa14cbae6774aa9383c3
+	Library/metadata/f4/f4901f25d4e1542589348bbb89563d8e
+	Library/metadata/f5/f58445347fe2e4b8396487ed2bfa02ad
+	Library/metadata/f6/f67685136370b2945aeff62f0573a98b
+	Library/metadata/f6/f688f89ed5eb847c5b19c934a0f1e772
+	Library/metadata/f7/f7898d203e9b94c0dbe2bf9dd5cb32c0
+	Library/metadata/f9/f9372f23586ef470b97d53856af88487
+	Library/metadata/f9/f9843a57b7ba4af4485da0b13f7b458d
+	Library/metadata/fb/fb52973118cf00648825ced2fcca240c
+	Library/metadata/fc/fc00ec05a89da4ff695a4273715cd5ce
+	Library/metadata/fd/fd5b57dca6810d1439ffcfc5ed3abfb3
+	Library/metadata/ff/ffa9c02760c2b4e8eb9814ec06c4b05b
+	Library/shadercompiler-1.log
+	ProjectSettings/ProjectSettings.asset
+	ProjectSettings/QualitySettings.asset
+	ProjectSettings/TagManager.asset
+	emperor.userprefs
+#
+# It looks like you may be committing a merge.
+# If this is not correct, please remove the file
+#	.git/MERGE_HEAD
+# and try again.
+
+
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+# On branch master
+# Your branch and 'origin/master' have diverged,
+# and have 1 and 1 different commit each, respectively.
+#   (use "git pull" to merge the remote branch into yours)
+#
+# All conflicts fixed but you are still merging.
+#
+# Changes to be committed:
+#	modified:   Assembly-CSharp-vs.csproj
+#	modified:   Assembly-CSharp.csproj
+#	modified:   Assembly-UnityScript-Editor-vs.unityproj
+#	modified:   Assembly-UnityScript-Editor.unityproj
+#	modified:   Assembly-UnityScript-vs.unityproj
+#	modified:   Assembly-UnityScript.unityproj
+#	new file:   Assets/Materials/ied_mat1.mat
+#	new file:   Assets/Materials/ied_mat1.mat.meta
+#	new file:   Assets/Prefabs/Allies.meta
+#	new file:   Assets/Prefabs/Allies/AmmoDude.prefab
+#	new file:   Assets/Prefabs/Allies/AmmoDude.prefab.meta
+#	new file:   Assets/Prefabs/Allies/Rifleman.prefab
+#	new file:   Assets/Prefabs/Allies/Rifleman.prefab.meta
+#	new file:   Assets/Scenes/killscreen.meta
+#	new file:   Assets/Scenes/killscreen/NavMesh.asset
+#	new file:   Assets/Scenes/killscreen/NavMesh.asset.meta
+#	new file:   Assets/Scenes/story.meta
+#	new file:   Assets/Scenes/story/NavMesh.asset
+#	new file:   Assets/Scenes/story/NavMesh.asset.meta
+#	new file:   Assets/Scripts/Ally/AllyCounter.js
+#	new file:   Assets/Scripts/Ally/AllyCounter.js.meta
+#	new file:   Assets/Scripts/Ally/AmmoDude/AmmoDudeConversation.js
+#	new file:   Assets/Scripts/Ally/AmmoDude/AmmoDudeConversation.js.meta
+#	modified:   Assets/Scripts/Ally/AmmoDude/DropAmmo.js
+#	new file:   Assets/Scripts/Ally/Rifleman.meta
+#	new file:   Assets/Scripts/Ally/Rifleman/RiflemanAI.js
+#	new file:   Assets/Scripts/Ally/Rifleman/RiflemanAI.js.meta
+#	new file:   Assets/Scripts/Archive/PlayerConversation.js
+#	new file:   Assets/Scripts/Archive/PlayerConversation.js.meta
+#	new file:   Assets/Scripts/Archive/PlayerHealth.js
+#	new file:   Assets/Scripts/Archive/PlayerHealth.js.meta
+#	modified:   Assets/Scripts/Areas/Capture.js
+#	new file:   Assets/Scripts/Areas/ClearingControl.js
+#	new file:   Assets/Scripts/Areas/ClearingControl.js.meta
+#	modified:   Assets/Scripts/Areas/StoneHouseControl.js
+#	new file:   Assets/Scripts/Areas/TheForestControl.js
+#	new file:   Assets/Scripts/Areas/TheForestControl.js.meta
+#	modified:   Assets/Scripts/Conversation/Tutorial.js
+#	modified:   Assets/Scripts/DontMove.js
+#	new file:   Assets/Scripts/Enemies/EnemyCounter.js
+#	new file:   Assets/Scripts/Enemies/EnemyCounter.js.meta
+#	new file:   Assets/Scripts/Enemies/PillAI.js
+#	new file:   Assets/Scripts/Enemies/PillAI.js.meta
+#	modified:   Assets/Scripts/Enemies/WaveControl.js
+#	new file:   Assets/Scripts/Enemies/Weapons.meta
+#	new file:   Assets/Scripts/Enemies/Weapons/EnemyWeapon.js
+#	new file:   Assets/Scripts/Enemies/Weapons/EnemyWeapon.js.meta
+#	modified:   Assets/Scripts/GameMenu.js
+#	modified:   Assets/Scripts/MainMenu.js
+#	modified:   Assets/Scripts/Player/FMenu.js
+#	modified:   Assets/Scripts/Player/PlayerCombatAnimation.js
+#	modified:   Assets/Scripts/Player/PlayerCounter.js
+#	modified:   Assets/Scripts/Player/PlayerWeapon.js
+#	modified:   Assets/Scripts/Player/PlayerWeapon.js.meta
+#	new file:   Assets/icon.png
+#	new file:   Assets/icon.png.meta
+#	new file:   Assets/trashpile.meta
+#	new file:   Assets/trashpile/ied_mat1.png
+#	new file:   Assets/trashpile/ied_mat1.png.meta
+#	new file:   Assets/trashpile/license.txt
+#	new file:   Assets/trashpile/license.txt.meta
+#	new file:   Assets/trashpile/trashpile01_prp.fbx
+#	new file:   Assets/trashpile/trashpile01_prp.fbx.meta
+#	new file:   Library/metadata/0a/0ac2121c4755eb94bb1d03159ccbf5ff
+#	new file:   Library/metadata/0f/0ffd04d885356ce43865b48c1170f0fd
+#	new file:   Library/metadata/12/12cc3d4bbd845f344a14bc4fe2748d43
+#	new file:   Library/metadata/19/19211f971aee1b74d91abe1802a3088d
+#	new file:   Library/metadata/32/324ce22eee4216a4989e94af0a93f6fa
+#	new file:   Library/metadata/3f/3f7c5c6f19e8d404a9f709a0e1b8bcc5
+#	new file:   Library/metadata/45/45e9085a63df2fb40a65719387e91bf6
+#	new file:   Library/metadata/4e/4e83fa594f11dce4aa085ee89f8e8c3f
+#	new file:   Library/metadata/5a/5abccdda70c60f24790d7f3874ff11d1
+#	new file:   Library/metadata/77/772b44936f62fc0459a3ecb8350ea248
+#	new file:   Library/metadata/98/98767d5a1be099f45972d97fababd65e
+#	new file:   Library/metadata/be/bebfbd4452d27604394e4a2c1b802415
+#	new file:   Library/metadata/c7/c74e8c3a16bc65e429c7094f92fc99af
+#	new file:   Library/metadata/ca/ca36e2f1d314f8b41963de0f26692c7c
+#	new file:   Library/metadata/cc/ccbde986b4dccab47ae6dd4e6ba6dac4
+#	new file:   Library/metadata/d3/d337bd3b1e075f240950b9c18f8716ea
+#	new file:   Library/metadata/de/de48778acd31aa34b9d0b4245f774a06
+#	new file:   Library/metadata/e6/e6f0a59f812e5694791b168e90a633d1
+#	new file:   Library/metadata/f2/f25651588b369a340b5b2255ed26c294
+#	modified:   Library/shadercompiler-1.log
+#	modified:   emperor-csharp.sln
+#	modified:   emperor.sln
+#	modified:   emperor.userprefs
+#
+
