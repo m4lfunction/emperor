@@ -1,29 +1,9 @@
 ﻿<Properties>
-<<<<<<< HEAD
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Areas\StoneHouseControl.js">
-    <Files>
-      <File FileName="Assets\Scripts\Ally\AmmoDude\DropAmmo.js" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\Player\Grenades.js" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\Player\PlayerCombatAnimation.js" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\PickUps\Ammo1PickUp.js" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\Enemies\StartWaves.js" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\Enemies\WaveControl.js" Line="131" Column="89" />
-      <File FileName="Assets\Scripts\Ally\AllyAI.js" Line="13" Column="2" />
-      <File FileName="Assets\Scripts\GameMenu.js" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\Areas\Capture.js" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\Areas\StoneHouseControl.js" Line="20" Column="27" />
-=======
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Areas\ClearingControl.js">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Enemies\WaveControl.js">
     <Files>
-      <File FileName="Assets\Scripts\Areas\ClearingControl.js" Line="18" Column="41" />
-      <File FileName="Assets\Scripts\Ally\Rifleman\RiflemanAI.js" Line="10" Column="25" />
-      <File FileName="Assets\Scripts\Ally\AllyCounter.js" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\Enemies\PillAI.js" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\Player\PlayerCombatAnimation.js" Line="4" Column="1" />
-      <File FileName="Assets\Scripts\Areas\StoneHouseControl.js" Line="30" Column="103" />
->>>>>>> 51360c7428d2ac8c746147b892aa51f84987a6fc
+      <File FileName="Assets\Scripts\Player\PlayerCounter.js" Line="55" Column="1" />
+      <File FileName="Assets\Scripts\Enemies\WaveControl.js" Line="122" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

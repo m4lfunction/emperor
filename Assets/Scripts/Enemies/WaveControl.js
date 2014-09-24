@@ -113,8 +113,7 @@ function Update () {
 function OnGUI(){
 
 	GUI.Label(Rect (100, 10, 100, 250), "Wave "+waveCounter+" in "+timeToWave+" seconds.");
-	GUI.Label(Rect (120, 10, 150, 250), "Wave "+waveCounter+" in "+timeToWave+" seconds.");
-
+	
 }
 
 function SpawnPill001(location : Transform){
