@@ -20,14 +20,11 @@ function Start () {
 function Update () {
 
 	if (Time.time >= nextDrop){
-			nextDrop = Time.time + delay;
-			var ammo = Instantiate(ammoBase1, dropPoint.position, transform.rotation);
-	}
 
 			nextDrop = Time.time + dropTimer;
 			DropAmmo1();
 	}
-
+}
 
 
 function DropAmmo1(){
