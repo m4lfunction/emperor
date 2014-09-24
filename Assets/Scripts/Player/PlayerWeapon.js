@@ -1,13 +1,13 @@
 ﻿#pragma strict
 
-<<<<<<< HEAD
+
 function Start () {
 
 }
 
 function Update () {
 
-=======
+
 var minDamage : int = 1;
 var maxDamage : int = 2;
 private var damage : int;
@@ -48,5 +48,5 @@ function OnGUI(){
 
 function UnshowHealth(){
 	showHealth = false;
->>>>>>> 51360c7428d2ac8c746147b892aa51f84987a6fc
+
 }

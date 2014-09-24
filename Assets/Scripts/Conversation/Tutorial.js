@@ -26,7 +26,6 @@ function Start () {
 function OnGUI () {
 
 	if (drawTutorial1 == true){
-<<<<<<< HEAD
 		GUI.Box (Rect (100,100,100,40), "WASD to move");
 	}
 	if (drawTutorial2 == true){
@@ -34,7 +33,6 @@ function OnGUI () {
 	}
 	if (drawTutorial3 == true){
 		GUI.Box (Rect (100,100,180,80), "PageUp, PageDown to zoom");
-=======
 		GUI.Box (Rect (300,300,100,40), "WASD to move");
 	}
 	if (drawTutorial2 == true){
@@ -42,7 +40,6 @@ function OnGUI () {
 	}
 	if (drawTutorial3 == true){
 		GUI.Box (Rect (300,300,180,80), "PageUp, PageDown to zoom");
->>>>>>> 51360c7428d2ac8c746147b892aa51f84987a6fc
 	}
 
 }
