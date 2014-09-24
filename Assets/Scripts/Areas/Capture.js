@@ -1,7 +1,6 @@
 ﻿#pragma strict
 
 var activated : boolean = false;
-<<<<<<< HEAD
 var timeToCapture : float = 60;
 var timeLeft : float = 60;
 var captured : boolean = false;
@@ -25,8 +24,7 @@ function Update () {
 			captured = true;
 			ammoAt = Time.time + timeLeft;
 			
-=======
-
+}}}
 var timeToCapture : float = 60;
 var timeToAmmo : float = 30;
 
@@ -52,7 +50,6 @@ function Update () {
 		if(timeToCapture < 0.1){
 			captured = true;
 			ammoAt = Time.time + timeLeft;
->>>>>>> 51360c7428d2ac8c746147b892aa51f84987a6fc
 		}
 	
 	}
@@ -93,15 +90,12 @@ function OnGUI(){
 	if(activated == true){
 	
 		if(captured == false){
-<<<<<<< HEAD
 			GUI.Label(Rect (200, 10, 200, 20), "Captured in: "+timeToCapture);
 		}else{
 			GUI.Label(Rect (200, 10, 200, 20), "Captured!");
-=======
+
 			GUI.Label(Rect (250, 10, 250, 20), "Captured in: "+timeToCapture);
-		}else{
+}		}else{
 			GUI.Label(Rect (250, 10, 250, 20), "Captured!");
->>>>>>> 51360c7428d2ac8c746147b892aa51f84987a6fc
 		}
 	}
-}
