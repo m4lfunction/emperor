@@ -18,12 +18,9 @@ function OnGUI () {
 		PlayerPrefs.SetInt("xpToLvl", 25);
 		PlayerPrefs.SetInt("lvl", 0);
 		PlayerPrefs.SetInt("tutorial", 0);
-<<<<<<< HEAD
 		PlayerPrefs.SetInt("spawn", 0);
-=======
 		PlayerPrefs.SetInt("ammo1", 100);
 		PlayerPrefs.SetInt("dex", 5);
->>>>>>> 51360c7428d2ac8c746147b892aa51f84987a6fc
 		PlayerPrefs.Save();
 		Application.LoadLevel (3);
 	}

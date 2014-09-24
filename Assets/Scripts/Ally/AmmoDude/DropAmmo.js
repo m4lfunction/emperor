@@ -2,17 +2,15 @@
 
 var ammoBase1 : GameObject;
 var dropPoint : Transform;
-var nextDrop : float;
 var delay : float = 30;
 private var nextDrop : float;
 
-function Start () {
 
 nextDrop = Time.time;
 
 var dropTimer : float = 30;
 
-}
+
 
 function Start () {
 	// make him drop ammo when spawns
