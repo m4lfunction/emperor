@@ -24,13 +24,10 @@ function Update () {
 }
 
 function LateUpdate () {
-<<<<<<< HEAD
 	if (activated == true){
 		transform.LookAt(fixPoint);
 	}
-=======
 	//if (activated == true){
 		transform.LookAt(fixPoint);
 	//}
->>>>>>> 51360c7428d2ac8c746147b892aa51f84987a6fc
 }

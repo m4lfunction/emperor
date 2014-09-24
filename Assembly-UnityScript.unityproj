@@ -47,27 +47,15 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\ActivatePointer.js" />
-<<<<<<< HEAD
      <Compile Include="Assets\Scripts\Ally\AllyAI.js" />
-     <Compile Include="Assets\Scripts\Ally\AmmoDude\DropAmmo.js" />
-     <Compile Include="Assets\Scripts\Archive\EnemyHealth1.js" />
-     <Compile Include="Assets\Scripts\Archive\PlayerCombatAnimationOld.js" />
-     <Compile Include="Assets\Scripts\Areas\Capture.js" />
-     <Compile Include="Assets\Scripts\Areas\StoneHouseControl.js" />
-=======
      <Compile Include="Assets\Scripts\Ally\AllyCounter.js" />
      <Compile Include="Assets\Scripts\Ally\AmmoDude\AmmoDudeConversation.js" />
      <Compile Include="Assets\Scripts\Ally\AmmoDude\DropAmmo.js" />
      <Compile Include="Assets\Scripts\Ally\Rifleman\RiflemanAI.js" />
-     <Compile Include="Assets\Scripts\Archive\EnemyHealth1.js" />
-     <Compile Include="Assets\Scripts\Archive\PlayerCombatAnimationOld.js" />
-     <Compile Include="Assets\Scripts\Archive\PlayerConversation.js" />
-     <Compile Include="Assets\Scripts\Archive\PlayerHealth.js" />
      <Compile Include="Assets\Scripts\Areas\Capture.js" />
      <Compile Include="Assets\Scripts\Areas\ClearingControl.js" />
      <Compile Include="Assets\Scripts\Areas\StoneHouseControl.js" />
      <Compile Include="Assets\Scripts\Areas\TheForestControl.js" />
->>>>>>> 51360c7428d2ac8c746147b892aa51f84987a6fc
      <Compile Include="Assets\Scripts\Conversation\MainMenuText.js" />
      <Compile Include="Assets\Scripts\Conversation\Tutorial.js" />
      <Compile Include="Assets\Scripts\Create.js" />
@@ -75,18 +63,13 @@
      <Compile Include="Assets\Scripts\DestroyOnPickup.js" />
      <Compile Include="Assets\Scripts\DestroyOnTriggerEnter.js" />
      <Compile Include="Assets\Scripts\DontMove.js" />
-<<<<<<< HEAD
      <Compile Include="Assets\Scripts\Enemies\EnemyAI.js" />
-     <Compile Include="Assets\Scripts\Enemies\EnemyHealth.js" />
-     <Compile Include="Assets\Scripts\Enemies\StartWaves.js" />
-     <Compile Include="Assets\Scripts\Enemies\WaveControl.js" />
-=======
      <Compile Include="Assets\Scripts\Enemies\EnemyCounter.js" />
+     <Compile Include="Assets\Scripts\Enemies\EnemyHealth.js" />
      <Compile Include="Assets\Scripts\Enemies\PillAI.js" />
      <Compile Include="Assets\Scripts\Enemies\StartWaves.js" />
      <Compile Include="Assets\Scripts\Enemies\WaveControl.js" />
      <Compile Include="Assets\Scripts\Enemies\Weapons\EnemyWeapon.js" />
->>>>>>> 51360c7428d2ac8c746147b892aa51f84987a6fc
      <Compile Include="Assets\Scripts\Follow.js" />
      <Compile Include="Assets\Scripts\GameMenu.js" />
      <Compile Include="Assets\Scripts\LockRotation.js" />
@@ -95,13 +78,9 @@
      <Compile Include="Assets\Scripts\Player\FMenu.js" />
      <Compile Include="Assets\Scripts\Player\Grenades.js" />
      <Compile Include="Assets\Scripts\Player\PlayerCombatAnimation.js" />
-<<<<<<< HEAD
      <Compile Include="Assets\Scripts\Player\PlayerConversation.js" />
      <Compile Include="Assets\Scripts\Player\PlayerCounter.js" />
      <Compile Include="Assets\Scripts\Player\PlayerHealth.js" />
-=======
-     <Compile Include="Assets\Scripts\Player\PlayerCounter.js" />
->>>>>>> 51360c7428d2ac8c746147b892aa51f84987a6fc
      <Compile Include="Assets\Scripts\Player\PlayerMove.js" />
      <Compile Include="Assets\Scripts\Player\PlayerWeapon.js" />
      <Compile Include="Assets\Scripts\Pointer.js" />
@@ -168,10 +147,7 @@
      <None Include="Assets\Terrain Assets\Container Barrel\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ColorCorrectionSelective.shader" />
      <None Include="Assets\Terrain Assets\Container Barrel\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\Bokeh34.shader" />
      <None Include="Assets\Terrain Assets\Container Barrel\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\CameraMotionBlurDX11.shader" />
-<<<<<<< HEAD
-=======
      <None Include="Assets\trashpile\license.txt" />
->>>>>>> 51360c7428d2ac8c746147b892aa51f84987a6fc
      <None Include="Assets\Terrain Assets\Container Barrel\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\SeparableBlurPlus.shader" />
      <None Include="Assets\Terrain Assets\Container Barrel\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\MultiPassHollywoodFlares.shader" />
      <None Include="Assets\Terrain Assets\Container Barrel\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\BlurEffectConeTaps.shader" />

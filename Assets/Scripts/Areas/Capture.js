@@ -2,30 +2,6 @@
 
 var activated : boolean = false;
 var timeToCapture : float = 60;
-var timeLeft : float = 60;
-var captured : boolean = false;
-private var capturedAt : float;
-var timeToAmmo : float = 30;
-private var ammoAt : float;
-var ammoDude : boolean = false;
-
-
-function Start () {
-
-}
-
-function Update () {
-
-	if(activated == true){
-		if (Time.time < capturedAt){
-	 		timeToCapture = capturedAt - Time.time;
-		}
-		if(timeToCapture < 0.1){
-			captured = true;
-			ammoAt = Time.time + timeLeft;
-			
-}}}
-var timeToCapture : float = 60;
 var timeToAmmo : float = 30;
 
 var timeLeft : float = 60;
@@ -35,6 +11,10 @@ var ammoDude : boolean = false;
 
 private var capturedAt : float;
 private var ammoAt : float;
+
+
+
+
 
 function Start () {
 	timeLeft = timeToCapture;

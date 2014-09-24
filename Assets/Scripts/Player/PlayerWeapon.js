@@ -1,11 +1,7 @@
 ﻿#pragma strict
 
 
-function Start () {
 
-}
-
-function Update () {
 
 
 var minDamage : int = 1;
