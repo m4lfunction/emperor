@@ -1,9 +1,10 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Enemies\WaveControl.js">
     <Files>
-      <File FileName="Assets\Scripts\Player\PlayerCounter.js" Line="55" Column="1" />
-      <File FileName="Assets\Scripts\Enemies\WaveControl.js" Line="122" Column="1" />
+      <File FileName="Assets\Scripts\Enemies\WaveControl.js" Line="140" Column="2" />
+      <File FileName="Assets\Scripts\Player\PlayerCounter.js" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Enemies\WaveControl.js" Line="140" Column="2" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
