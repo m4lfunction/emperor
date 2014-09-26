@@ -74,8 +74,6 @@ function OnGUI(){
 		}else{
 			GUI.Label(Rect (200, 10, 200, 20), "Captured!");
 
-			GUI.Label(Rect (250, 10, 250, 20), "Captured in: "+timeToCapture);
-}		}else{
-			GUI.Label(Rect (250, 10, 250, 20), "Captured!");
 		}
 	}
+}

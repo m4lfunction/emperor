@@ -42,7 +42,6 @@ function Update () {
 	}
 	else{if(waveCounter < 15){
 		delay2 = 60;
-		waveStrength = 30;
 		waveStrength = 10;
 	}else{if(waveCounter < 20){
 		waveStrength = 15;
@@ -112,35 +111,30 @@ function Update () {
 
 function OnGUI(){
 
-	GUI.Label(Rect (100, 10, 100, 250), "Wave "+waveCounter+" in "+timeToWave+" seconds.");
 	GUI.Label(Rect (120, 10, 150, 250), "Wave "+waveCounter+" in "+timeToWave+" seconds.");
 
 }
 
 function SpawnPill001(location : Transform){
 	var pill001 = Instantiate(enemyBase1, location.transform.position, transform.rotation);
-	pill001.GetComponent(EnemyAI).player = player;
 	pill001.GetComponent(PillAI).player = player;
 	enemiesSpawned++;
 }
 
 function SpawnPill002(location : Transform){
 	var pill002 = Instantiate(enemyBase2, location.transform.position, transform.rotation);
-	pill002.GetComponent(EnemyAI).player = player;
 	pill002.GetComponent(PillAI).player = player;
 	enemiesSpawned++;
 }
 
 function SpawnPill003(location : Transform){
 	var pill003 = Instantiate(enemyBase3, location.transform.position, transform.rotation);
-	pill003.GetComponent(EnemyAI).player = player;
 	pill003.GetComponent(PillAI).player = player;
 	enemiesSpawned++;
 }
 
 function SpawnPill004(location : Transform){
 	var pill004 = Instantiate(enemyBase4, location.transform.position, transform.rotation);
-	pill004.GetComponent(EnemyAI).player = player;
 	pill004.GetComponent(PillAI).player = player;
 	enemiesSpawned++;
 }
