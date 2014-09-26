@@ -17,7 +17,6 @@ private var thisTransform : Transform;
 
 function Start(){
 
-	moveSpeed = gameObject.GetComponent(EnemyCounter).moveSpeed;
 	agent = GetComponent.<NavMeshAgent>();
 	
 }

@@ -58,9 +58,9 @@ function OnCollisionEnter (collision : Collision)
 
 	// handle the health stuff
 
-//	if (collision.transform.tag == ("EnemyWeapon")){
-//		health -= 1;
-//	}
+	if (collision.transform.tag == ("EnemyWeapon")){
+		health -= 1;
+	}
 
 	if (collision.transform.tag == ("MedPack")){
 		health += 5;
